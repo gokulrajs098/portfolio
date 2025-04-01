@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gokul Raj - Cyber Security Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js" class="particles-container"></div>
+    
+    <header class="glitch-header">
+        <nav>
+            <div class="nav-toggle">☰</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="terminal">
+                <div class="terminal-header">
+                    <span class="terminal-button"></span>
+                    <span class="terminal-button"></span>
+                    <span class="terminal-button"></span>
+                </div>
+                <div class="terminal-content">
+                    <div class="typing-text">
+                        <span class="line">$ whoami</span>
+                        <h1>Gokul Raj</h1>
+                        <span class="line">$ ./education.sh</span>
+                        <p>B.Sc. Forensic Science (2020-2023)<br>M.Sc. Cyber Security (2023-2025)</p>
+                        <span class="line" style="margin-top: 20px;">$ ./interests.sh</span>
+                        <p>Passionate about Cinema, Cricket, and Cybersecurity</p>
+                    </div>
+                    <div class="terminal-input-container">
+                        <span class="terminal-prompt">$</span>
+                        <input type="text" class="terminal-input" placeholder="Type a command...">
+                    </div>
+                    <div class="terminal-output"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2 class="glitch-text">Technical Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-shield-alt"></i> Cyber Security</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-bug"></i> Penetration Testing
+                            <div class="skill-level"><div class="skill-level-bar" style="width: 90%"></div></div>
+                        </li>
+                        <li>
+                            <i class="fas fa-network-wired"></i> Network Security
+                            <div class="skill-level"><div class="skill-level-bar" style="width: 85%"></div></div>
+                        </li>
+                        <li>
+                            <i class="fas fa-search"></i> Vulnerability Assessment
+                            <div class="skill-level"><div class="skill-level-bar" style="width: 88%"></div></div>
+                        </li>
+                        <li>
+                            <i class="fas fa-clipboard-check"></i> Security Auditing
+                            <div class="skill-level"><div class="skill-level-bar" style="width: 82%"></div></div>
+                        </li>
+                        <li>
+                            <i class="fas fa-exclamation-triangle"></i> Incident Response
+                            <div class="skill-level"><div class="skill-level-bar" style="width: 80%"></div></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Web Development</h3>
+                    <ul>
+                        <li><i class="fas fa-desktop"></i> Frontend Development</li>
+                        <li><i class="fas fa-server"></i> Backend Development</li>
+                        <li><i class="fas fa-lock"></i> Secure Coding Practices</li>
+                        <li><i class="fas fa-plug"></i> API Development</li>
+                        <li><i class="fas fa-database"></i> Database Management</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-link"></i> Blockchain</h3>
+                    <ul>
+                        <li><i class="fas fa-cube"></i> Smart Contracts</li>
+                        <li><i class="fas fa-project-diagram"></i> DApp Development</li>
+                        <li><i class="fas fa-shield-alt"></i> Blockchain Security</li>
+                        <li><i class="fas fa-code-branch"></i> Distributed Systems</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2 class="glitch-text">GitHub Projects</h2>
+            <div class="github-profile">
+                <a href="https://github.com/gokulrajs098" target="_blank" class="github-link">
+                    <i class="fab fa-github"></i>
+                    <span>Check out my projects on GitHub</span>
+                </a>
+                <p>Explore my repositories for cybersecurity tools, web applications, and more</p>
+            </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2 class="glitch-text">Establish Connection</h2>
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="95c48099-d6b2-419e-99ba-dd0360e128d7">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Identifier (Name)" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Communication Channel (Email)" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Message Payload" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Transmit Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Secured with 💻 by Gokul Raj © 2025</p>
+    </footer>
+
+    <button class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <script src="script.js"></script>
+    <script src="nav.js"></script>
+</body>
+</html>
