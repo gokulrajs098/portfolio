@@ -95,6 +95,9 @@ header {
 
 /* Mobile Navigation */
 @media screen and (max-width: 768px) {
+    .theme-toggle {
+        display: none;
+    }
     .nav-toggle {
         display: block;
         position: absolute;
