@@ -33,16 +33,7 @@ terminalInput.addEventListener('keypress', (e) => {
     }
 });
 
-// Dark mode toggle
-const themeToggle = document.querySelector('.theme-toggle');
-const themeIcon = themeToggle.querySelector('i');
-let isDarkMode = true;
 
-themeToggle.addEventListener('click', () => {
-    isDarkMode = !isDarkMode;
-    document.body.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
-    themeIcon.className = isDarkMode ? 'fas fa-moon' : 'fas fa-sun';
-});
 
 // Particle animation
 particlesJS('particles-js', {

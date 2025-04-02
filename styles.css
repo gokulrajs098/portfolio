@@ -6,34 +6,6 @@
     --accent-color: #ff073a;
 }
 
-[data-theme="light"] {
-    --neon-green: #007500;
-    --dark-bg: #f0f0f0;
-    --terminal-green: #1a7a0d;
-    --accent-color: #d60000;
-}
-
-.theme-toggle {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: var(--dark-bg);
-    border: 1px solid var(--neon-green);
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-}
-
-.theme-toggle:hover {
-    box-shadow: 0 0 10px var(--neon-green);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -225,6 +197,7 @@ nav a:hover {
     white-space: pre-wrap;
     margin-top: 1rem;
 }
+
 
 .typing-text .line::after {
     content: '|';
