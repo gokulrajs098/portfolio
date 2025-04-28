@@ -141,6 +141,31 @@ nav a:hover {
     text-shadow: 0 0 10px var(--accent-color);
 }
 
+/* Resume Link */
+.resume-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--terminal-green);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--terminal-green);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    margin-top: 0.5rem;
+}
+
+.resume-link:hover {
+    background: var(--terminal-green);
+    color: var(--dark-bg);
+    box-shadow: 0 0 15px var(--terminal-green);
+    transform: translateY(-2px);
+}
+
+.resume-link i {
+    font-size: 1.1rem;
+}
+
 /* Terminal Effect */
 .terminal {
     background: rgba(0, 0, 0, 0.8);
